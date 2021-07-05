@@ -1,0 +1,29 @@
+﻿<Window x:Class="Spainter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spainter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Canvas Name="cnvImage" 
+                    Background="Black"
+                    Grid.Row="0" 
+                    MaxHeight="500" 
+                    Width="500"
+                    MouseDown="cnvImage_MouseDown"
+                    PreviewMouseMove="cnvImage_PreviewMouseMove"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+            <Button Name="Draw" Content="Draw" Click="Draw_Click"/>
+            <Button Name="Text" Content="Text" Click="Text_Click"/>
+            <Button Name="Erase" Content="Erase" Click="Erase_Click"/>
+            <Button Name="Zoom" Content="Zoom" Click="Zoom_Click"/>
+            <Button Name="Load" Content="Load" Click="Load_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

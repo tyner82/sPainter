@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NtDFaqrJGBEslrXh/TXgHLrfWJqoERtdN8Ckyc9tgBbcOrl6m0jgM/k5FUc1vay/jer2aDcULYREvq5MTtlYMQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Chris\\source\\repos\\Spainter.orig\\Spainter\\Spainter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Chris\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Chris\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\Chris\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
